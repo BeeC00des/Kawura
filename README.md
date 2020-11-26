@@ -1,0 +1,2 @@
+- Run npm install to install dependencies
+- index.js contains nodejs dependencies and can not run in the browser, hence to be bundled into bundle.js by running "npm run packjs"
