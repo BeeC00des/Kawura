@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Kawura sign-in-page</title>
+   <link rel="stylesheet" href="./Assets/css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/9df45a9d7e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div class="section-sign-in">
+      <div class="row sign-in">
+         <div class="col-sm-6 col-md-5">
+            <img src="./Assets/Images/kawura-logo.png" class="signin-logo" alt="kawura">
+         </div>
+         <div class="col-md-1"></div>
+         <div class="col-sm-6 col-md-6">
+            <h2 class="form-head">SIGN IN TO KAWURA</h2>
+            <form class="form" id="myForm" novalidate>
+               <div class="input-icons">
+                  <i class="far fa-envelope icon"></i>
+                  <input type="email" class="form-control sign-input" id="email" placeholder="Email Address"
+                     name="email" required>
+                  <div class="invalid-feedback" id="emailError"></div>
+               </div>
+               <div class="input-icons password">
+                  <i class="fas fa-lock icon"></i>
+                  <input type="password" class="form-control sign-input" id="password" placeholder="Password"
+                     name="password" required>
+                  <div class="invalid-feedback" id="passwordError"></div>
+               </div>
+               <button type="submit" class="btn btn-signin" id="submitBtn">
+                  <a href="coursePage.html" style="color:#fff; text-decoration: none;" > Sign In</a>
+               </button>
+            </form>
+            <p class="text-center text-account">Already have an account?
+               <span><a href="sign-up.html">Sign-Up</a> </span></p>
+            <div class="text-option ">
+               <div class="right-line"></div>
+               <p class="text-center"> OR </p>
+               <div class="right-line"></div>
+            </div>
+            <div class="text-center">
+               <button class="btn btn-google">
+                  <i class="fab fa-google"></i>
+                  <span class="btn-text">Sign Up with Google</span>
+               </button>
+               <button class="btn btn-facebook">
+                  <i class="fab fa-facebook-square"></i>
+                  <span class="btn-text"> Sign Up with Facebook</span>
+               </button>
+            </div>
+            <!-- <div class="result-display" style="border:1px solid red; height:100px;"> -->
+            </div>
+         </div>
+      </div>
+
+      <!-- javascript base -->
+      <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script>
+         const kawuraForm = document.getElementById('myForm');
+
+         const emailInputField = document.querySelector('#email');
+         const passwordInputField = document.querySelector('#password');
+
+         const submitBtn = document.querySelector('#submitBtn');
+
+         const emailError = document.querySelector('#emailError');
+         const passwordError = document.querySelector('#passwordError');
+
+         const validate = async (values) => {
+            const { email, password } = values;
+            let errors = {};
+            const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            if (!email) {
+               errors.email = "Email is required"
+            } else if (!emailRegex.test(email.toLowerCase())) {
+               errors.email = "Please enter a valid email"
+            }
+            if (!password) {
+               errors.password = "Password required"
+            }
+            return errors;
+         }
+
+         const isEmpty = val => val == null || !(Object.keys(val) || val).length;
+
+
+         const handleSignIn = async (e) => {
+            e.preventDefault();
+            submitBtn.innerText = "Loading..."
+            const formFieldValues = {
+               email: emailInputField.value,
+               password: passwordInputField.value,
+            }
+
+            const errors = await validate(formFieldValues);
+            const url = 'https://kawuraweb.herokuapp.com/signin';
+
+
+            if (!isEmpty(errors)) {
+               emailError.innerText = errors.email ? errors.email : '';
+               passwordError.innerText = errors.password ? errors.password : '';
+               console.log(errors)
+               submitBtn.innerText = "Sign In"
+               return;
+            } else {
+               // const fectchApi = await axios.post(url, { ...formFieldValues });
+               const user = "jbih7yf778y78g4rf7gf87uf"
+               document.cookie = `user=${user}`
+               submitBtn.innerText = "Sign In"
+            }
+         }
+
+         kawuraForm.addEventListener('submit', handleSignIn);
+      </script>
+      <script src="./Assets/script/custom.js"></script>
+</body>

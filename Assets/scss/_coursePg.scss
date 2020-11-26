@@ -1,0 +1,224 @@
+h1, h2,h3,h4 {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+body{
+   overflow-x: hidden;
+}
+.custom-nav-course{
+   width:95%; 
+   margin: auto;
+   padding-top:35px !important;
+}
+.course-logo{
+   width: 229px;
+   height: 57.25px;
+}
+.course-header-layout{
+   width: 85%;
+   margin: 135px auto;
+}
+.course-header{
+   color:#fff; 
+   font-family: Gilroy-Bold;
+   font-size: 50px;
+   line-height: 60px;
+}
+.course-text{
+   color:#fff; 
+   font-family: Gilroy-Regular;
+   font-size: 17px;
+   line-height: 25px;
+}
+.header1{
+   height:90vh;
+   background-color:#113BEA ;
+}
+.title-bar{
+   width:100%;
+   height:70px;
+   display:flex;
+   background-color: #FFFFFF;
+   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+}
+.webinar-box{
+   width:120px;
+   height:70px;
+   border-bottom:2px solid #113BEA;;
+   margin-left: 100px;
+   padding-top: 25px;
+}
+.course-box{
+   margin-left: 50px; 
+   border-bottom:none;
+}
+
+.title-link{
+   color: #113BEA;
+   padding-left: 20px;
+   font-family: Gilroy-Medium !important;
+   font-size: 18px !important;
+   line-height: 22px !important;
+}
+
+.title-link:hover{
+   color:#1837E6;
+   text-decoration: underline;
+
+}
+.course-card{
+   width:100%;
+   background-color:#F8FCFF;
+   padding-top:60px;
+   padding-bottom:60px;
+}
+.card-section{
+   width:90%;
+   margin:auto !important;
+}
+.card-section2{
+   width:90%;
+   margin: 50px auto !important;
+}
+
+.course{
+   width: 17rem !important; 
+   height: 400px !important;
+   border:none !important;
+   background-color: #BFCDDA !important;
+   box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+}
+.card-top{
+   height:250px;
+}
+.card-title{
+   font-family: Gilroy-Bold;
+   font-size: 16px;
+   line-height: 24px;
+   color: #1E2B5E;
+}
+.card-top-one{
+   height: 100px !important;
+}
+.card-detail{
+   height: 300px;
+   background-color:#fff !important ;
+}
+.card-body{
+   height: 150px;
+   background-color:#fff !important ;
+   // padding: 42px 29px !important;
+}
+.tutor-price{
+   height:80px;
+}
+.img-container{
+   float: left;
+   width: 60%;
+   margin-top: 20px;
+}
+.text-name{
+   font-family: Gilroy-Medium;
+   font-size: 15px;
+   line-height: 16px;
+   padding-left: 5px;
+   color: #1E2B5E;
+}
+.text{
+   float:right;
+   margin-top: 38px;
+   width: 40%;
+   height:45px;
+   font-family: Gilroy-Bold;
+   font-size: 13px;
+   line-height: 16px;
+   color: #6BB81F;
+}
+.about-card{
+   margin-top:15px;
+   font-family: Gilroy-Regular;
+   font-size: 14px;
+   line-height: 17px;
+   color: rgba(30, 43, 94, 0.7);
+}
+.redirect{
+   padding-left: 30px;
+   text-decoration: underline;
+   text-underline-position: under;
+   color:#000;
+   font-family: Gilroy-Medium;
+   font-size: 15px;
+   line-height: 22px;
+}
+
+@media(max-width: 320px){
+   .card-section, .card-section2 {
+       width: 100%;
+   }
+   .card {
+      margin: 9px;
+   }
+}
+
+
+@media(max-width: 375px){
+   .card {
+      margin: 15px;
+   }
+   .course-header-layout {
+      margin: 50px auto;
+  }
+  .custom-nav-course {
+   width: 100%;
+  }
+   .course-logo {
+      width: 229px;
+      height: 57.25px;
+   }
+   .webinar-box {
+      margin-left: 0px;
+   }
+}
+@media (min-width:376px ) and (max-width :767px){
+   .card {
+      margin:35px;
+   }
+   .webinar-box{
+      margin-left: 70px;
+   }
+}
+@media(min-width: 768px){
+   .course  {
+      width: 12rem !important;
+      box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+   }
+   .card-top {
+      height: 200px;
+   }
+   .course-header-layout {
+      margin: 70px auto;
+  }
+  .custom-nav-course {
+    width: 100%;
+  }
+  .navbar{
+   padding: .1rem 0rem !important;
+  }
+}
+
+
+@media(min-width: 1024px){
+   .course  {
+      width: 17rem !important;
+      box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+   }
+   .card-top {
+      height: 200px;
+   }
+   .course-logo{
+      margin-left: 20px;
+   }
+   .course-header-layout {
+      margin: 130px auto;
+  }
+}

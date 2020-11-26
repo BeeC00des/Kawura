@@ -1,0 +1,1324 @@
+h1, h2, h3, h4 {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+body {
+  overflow-x: hidden; }
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("../fonts/Gilroy-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype"), url("../fonts/Gilroy-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url("../fonts/Gilroy-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype"), url("../fonts/Gilroy-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("../fonts/Gilroy-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.ttf") format("truetype"), url("../fonts/Gilroy-Light.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("../fonts/Gilroy-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url("../fonts/Gilroy-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype"), url("../fonts/Gilroy-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 500;
+  font-style: normal; }
+.header {
+  height: 100vh;
+  background-color: #ffffff; }
+
+.custom-nav {
+  width: 90%;
+  margin: auto;
+  padding-top: 30px !important;
+  padding-left: .65rem !important;
+  padding-right: .5rem !important;
+  padding-bottom: .5rem !important; }
+
+.logo-img {
+  width: 124px;
+  height: 31px; }
+
+.btn-sign-in {
+  border: 1px solid #1E2B5E !important;
+  margin-right: 20px !important;
+  border-radius: 4px !important;
+  padding: 10px 23px !important; }
+
+.btn-sign-in > a {
+  color: #1E2B5E !important;
+  text-decoration-color: #1E2B5E !important;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 22px; }
+
+.btn-sign-up {
+  background-color: #113BEA !important;
+  border-radius: 4px !important;
+  padding: 10px 23px !important; }
+
+.btn-sign-up > a {
+  color: #FFFFFF !important;
+  text-decoration-color: #1E2B5E !important;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 22px; }
+
+.header-img {
+  height: 350px;
+  background-image: url(../Images/map2.png);
+  background-position: right;
+  background-repeat: no-repeat !important;
+  background-size: contain; }
+
+.header-layout {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important; }
+
+.row-space {
+  height: 400px;
+  background-image: url(../Images/map1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 25px !important; }
+
+.header-text {
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  line-height: 50px;
+  color: #1E2B5E; }
+
+.header-color {
+  color: #113BEA; }
+
+.header-sub-text {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 35px;
+  color: rgba(30, 43, 94, 0.7); }
+
+.btn-create {
+  background-color: #113BEA !important;
+  margin-right: 32px !important;
+  padding: 16px 33px !important; }
+
+.btn-create > a {
+  color: #FFFFFF !important;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+.btn-enroll {
+  border: 1px solid #1E2B5E !important;
+  padding: 16px 33px !important; }
+
+.btn-enroll > a {
+  color: #1E2B5E !important;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+.section-one {
+  height: 650px;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: #113BEA; }
+
+.section-head {
+  width: 40%; }
+
+.section-title {
+  font-family: Gilroy-Bold;
+  font-size: 38px;
+  line-height: 51px;
+  color: #FFFFFF;
+  text-align: left; }
+
+.section-content {
+  width: 100%;
+  height: 320px;
+  margin: 20px auto !important; }
+
+.img-content {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin-top: 15px;
+  background-color: #ffffff; }
+
+.img-position {
+  margin-top: 25px;
+  margin-left: 25px; }
+
+.section1-content-header {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important; }
+
+.section1-content-subtext {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF; }
+
+.Action-btn {
+  width: 13%;
+  float: right !important; }
+
+.btn-create-now {
+  background-color: #FFFFFF !important;
+  margin: auto !important;
+  padding: 16px 33px !important; }
+
+.btn-create-now > a {
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1E2B5E !important; }
+
+.btn-enroll-now {
+  background-color: #113BEA !important;
+  margin: 20px auto !important;
+  padding: 16px 33px !important;
+  border-radius: 4px !important; }
+
+.btn-enroll-now > a {
+  color: #ffffff !important;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+.section-two {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+  height: auto;
+  background-color: #F7FAFF; }
+
+.section2-img-position {
+  width: 400px;
+  height: 400px;
+  margin-top: 130px;
+  background-image: url(../Images/image\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.content-header {
+  font-family: Gilroy-Bold;
+  font-size: 38px;
+  line-height: 51px;
+  color: #1E2B5E;
+  padding-top: 20px; }
+
+.content {
+  margin-top: 30px; }
+
+.content1 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border-left: 1px solid #113BEA; }
+
+.content-title {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1E2B5E; }
+
+.content-text {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 25px;
+  color: #1E2B5E;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.section-three {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  height: auto;
+  background-color: #ffffff; }
+
+.section-Three-title {
+  font-family: Gilroy-Bold;
+  font-size: 38px;
+  line-height: 51px;
+  color: #1E2B5E;
+  display: inline-block; }
+
+.section-three-head, .section-three-body {
+  width: 90%;
+  margin: auto; }
+
+.section-three-body {
+  padding-top: 50px;
+  padding-bottom: 100px; }
+
+.card-container {
+  position: relative;
+  height: 270px; }
+
+.empty {
+  width: 18rem !important;
+  height: 150px !important;
+  background-color: #C4C4C4 !important;
+  border-radius: 0rem !important;
+  position: absolute; }
+
+.filled {
+  background-color: #ffffff;
+  width: 16rem;
+  position: absolute;
+  margin-top: -30px; }
+
+#line-three-img {
+  background-image: url(../Images/Vector2.png);
+  background-position: left;
+  background-repeat: no-repeat; }
+
+#line-four-img {
+  width: 40%;
+  height: 30px;
+  margin-top: -15px;
+  margin-left: 20px;
+  background-image: url(../Images/Vector3.png);
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.link-text {
+  font-family: Gilroy-Medium;
+  font-size: 15px !important;
+  line-height: 22px;
+  text-decoration: none !important; }
+
+.section-four {
+  padding: 60px 70px;
+  height: 500px;
+  background-color: #F7FAFF; }
+
+.section-head-box {
+  width: 70%;
+  margin: auto; }
+
+.top-box {
+  width: 90%;
+  height: auto;
+  padding: 50px 20px;
+  margin: -130px auto;
+  border-radius: 10px;
+  background-color: #113AEA; }
+
+.topbox-content {
+  color: #ffffff;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 25px; }
+
+.btn-getstart {
+  background-color: #ffffff  !important;
+  margin: auto !important;
+  padding: 16px 33px !important; }
+
+.btn-getstart > a {
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px;
+  color: #113BEA !important; }
+
+.footer-text {
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none; }
+
+  .nav-btn {
+    display: inline; } }
+@media (min-width: 1025px) {
+  .navbar-toggler {
+    display: none; }
+
+  .nav-btn {
+    display: inline; }
+
+  .header {
+    height: 80%; }
+
+  .header-layout {
+    margin-top: 165px; } }
+@media (max-width: 575.98px) {
+  .header {
+    height: auto;
+    padding-bottom: 30px; }
+
+  .header-layout {
+    width: 90%;
+    margin: 0px;
+    height: auto; }
+
+  .row-space {
+    padding: auto !important; }
+
+  .header-btn {
+    display: flex; }
+
+  .btn-create, .btn-enroll {
+    padding: 7px 7px !important; }
+
+  .btn-create > a, .btn-enroll > a {
+    font-size: 13px !important; }
+
+  .header-sub-text {
+    padding-bottom: 5px; }
+
+  .section-head {
+    width: 82%; }
+
+  .section-title {
+    font-size: 27px;
+    line-height: 32px;
+    text-align: left; }
+
+  .section-one {
+    height: 750px; }
+
+  .section-two {
+    padding: 40px 20px; }
+
+  .section-three {
+    padding: 40px 10px; }
+
+  .card {
+    width: 90% !important;
+    margin: 15px; }
+
+  .section-four {
+    padding: 40px 20px; }
+
+  .top-box {
+    width: 90%; }
+
+  a, .link-text {
+    float: left; }
+
+  .custom-nav {
+    width: 100%; }
+
+  .nav-btn {
+    display: none; }
+
+  .navbar-toggler {
+    display: list-item;
+    padding: 0px !important; }
+
+  .navbar-icon {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0; }
+
+  .nav-item {
+    padding: 7px 5px; } }
+h1, h2, h3, h4 {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.section-sign-up {
+  height: 100vh;
+  background-color: #ffffff;
+  overflow-x: hidden; }
+
+.sign-up {
+  padding: 100px 100px; }
+
+.vertical-line {
+  border-left: 5px solid red !important;
+  height: 70%; }
+
+.signup-logo {
+  width: 403px;
+  height: 101px;
+  margin-top: 200px; }
+
+.form-head {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1E2B5E;
+  text-align: center; }
+
+.form {
+  margin-top: 70px; }
+
+input[type="email"], input[type="text"], input[type="password"], select.form-control {
+  width: 85%;
+  background: transparent;
+  border: none;
+  border-bottom: 0.7px solid rgba(30, 43, 94, 0.7);
+  box-shadow: none;
+  border-radius: 0; }
+
+.sign-input {
+  margin: 45px 0px 0px 60px !important; }
+
+.password {
+  margin-bottom: 60px !important; }
+
+.invalid-feedback {
+  margin-left: 65px; }
+
+.btn-signup {
+  margin: 10px 60px;
+  width: 85%;
+  background-color: #113BEA !important;
+  color: #fff !important;
+  font-family: Gilroy-Medium !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important; }
+
+.btn-google, .btn-facebook {
+  border: 0.5px solid #1E2B5E !important;
+  box-sizing: border-box;
+  border-radius: 4px !important;
+  margin-left: 20px; }
+
+.form-control {
+  padding: .375rem 2.5rem !important;
+  font-family: Gilroy-Medium !important;
+  font-size: 13px !important;
+  line-height: 16px !important;
+  color: rgba(30, 43, 94, 0.6) !important;
+  transition: none !important; }
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #113BEA !important; }
+
+.btn-text {
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1E2B5E;
+  padding: 13px 5px; }
+
+.text-account {
+  font-family: Gilroy-Medium;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(30, 43, 94, 0.6);
+  margin-top: 15px; }
+
+.text-option {
+  display: flex;
+  margin-left: 60px; }
+
+.text-option > p {
+  font-family: Gilroy-Bold;
+  font-size: 12px;
+  line-height: 24px;
+  color: #113BEA;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.text-account > span > a {
+  color: #B5DB8F !important; }
+
+.right-line {
+  width: 48%;
+  height: 2px;
+  background-color: rgba(30, 43, 94, 0.3);
+  margin-top: 25px; }
+
+.input-icons i {
+  position: absolute; }
+
+.input-icons {
+  width: 100%; }
+
+.icon {
+  max-width: 50px;
+  margin: 6px 60px;
+  color: #113BEA; }
+
+.fa-google {
+  color: #FFC107; }
+
+.fa-facebook-square {
+  color: #395185; }
+
+@media (max-width: 575.98px) {
+  .sign-up {
+    padding: 20px 30px; }
+
+  .signup-logo {
+    width: 250px;
+    height: 70px;
+    margin: 30px auto; }
+
+  .form-head {
+    margin-top: 30px !important; }
+
+  .sign-input {
+    margin: 45px 0px 0px 10px !important; }
+
+  .btn-signup {
+    margin: 10px 20px; }
+
+  .password {
+    margin-bottom: 30px !important; }
+
+  .text-option {
+    margin-left: 0px; }
+
+  .btn-google, .btn-facebook {
+    margin-left: 0px;
+    margin-top: 20px; }
+
+  .text-option > p {
+    padding-bottom: 5px; } }
+h1, h2, h3, h4 {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.section-sign-in {
+  height: 100vh;
+  background-color: #ffffff;
+  overflow-x: hidden; }
+
+.sign-in {
+  padding: 100px 100px; }
+
+.signin-logo {
+  width: 403px;
+  height: 101px;
+  margin-top: 220px; }
+
+.btn-signin {
+  margin: 10px 60px;
+  width: 85%;
+  background-color: #113BEA !important;
+  color: #fff !important;
+  font-family: Gilroy-Medium !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important; }
+
+.disable {
+  display: none; }
+
+@media (max-width: 575.98px) {
+  .sign-in {
+    padding: 20px 30px; }
+
+  .signin-logo {
+    width: 250px;
+    height: 70px;
+    margin: 30px auto; }
+
+  .form-head {
+    margin-top: 30px !important; }
+
+  input[type="email"],
+  input[type="password"],
+  select.form-control {
+    margin: 45px 0px 0px 10px !important; }
+
+  .btn-signin {
+    margin: 10px 20px; } }
+h1, h2, h3, h4 {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+body {
+  overflow-x: hidden; }
+
+.custom-nav-course {
+  width: 95%;
+  margin: auto;
+  padding-top: 20px !important; }
+
+.course-logo {
+  width: 229px;
+  height: 57.25px; }
+
+.course-header-layout {
+  width: 85%;
+  margin: 135px auto; }
+
+.course-header {
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 50px;
+  line-height: 60px; }
+
+.course-text {
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 17px;
+  line-height: 25px; }
+
+.header1 {
+  height: 90vh;
+  background-color: #113BEA; }
+
+.title-bar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05); }
+
+.webinar-box {
+  width: 120px;
+  height: 70px;
+  border-bottom: 2px solid #113BEA;
+  margin-left: 100px;
+  padding-top: 25px; }
+
+.course-box {
+  margin-left: 50px;
+  border-bottom: none; }
+
+.title-link {
+  color: #113BEA;
+  padding-left: 20px;
+  font-family: Gilroy-Medium !important;
+  font-size: 18px !important;
+  line-height: 22px !important; }
+
+.title-link:hover {
+  color: #1837E6;
+  text-decoration: underline; }
+
+.course-card {
+  width: 100%;
+  background-color: #F8FCFF;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.card-section {
+  width: 90%;
+  margin: auto !important; }
+
+.card-section2 {
+  width: 90%;
+  margin: 50px auto !important; }
+
+.course {
+  width: 17rem !important;
+  height: 400px !important;
+  border: none !important;
+  background-color: #BFCDDA !important; }
+
+.card-top {
+  height: 250px; }
+
+.card-title {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.card-top-one {
+  height: 100px !important; }
+
+.card-detail {
+  height: 300px;
+  background-color: #fff !important; }
+
+.card-body {
+  height: 150px;
+  background-color: #fff !important; }
+
+.tutor-price {
+  height: 80px; }
+
+.img-container {
+  float: left;
+  width: 60%;
+  margin-top: 20px; }
+
+.text-name {
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 16px;
+  padding-left: 5px;
+  color: #1E2B5E; }
+
+.text {
+  float: right;
+  margin-top: 38px;
+  width: 40%;
+  height: 45px;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #6BB81F; }
+
+.about-card {
+  margin-top: 15px;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(30, 43, 94, 0.7); }
+
+.redirect {
+  padding-left: 30px;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+@media (max-width: 320px) {
+  .card-section, .card-section2 {
+    width: 100%; }
+
+  .card {
+    margin: 9px; } }
+@media (max-width: 375px) {
+  .card {
+    margin: 15px; }
+
+  .course-header-layout {
+    margin: 50px auto; }
+
+  .custom-nav-course {
+    width: 100%; }
+
+  .course-logo {
+    width: 229px;
+    height: 57.25px; }
+
+  .webinar-box {
+    margin-left: 0px; } }
+@media (min-width: 376px) and (max-width: 767px) {
+  .card {
+    margin: 35px; }
+
+  .webinar-box {
+    margin-left: 70px; } }
+@media (min-width: 768px) {
+  .course {
+    width: 10rem !important; }
+
+  .card-top {
+    height: 200px; }
+
+  .course-header-layout {
+    margin: 70px auto; }
+
+  .custom-nav-course {
+    width: 100%; }
+
+  .navbar {
+    padding: .1rem 0rem !important; } }
+@media (min-width: 1024px) {
+  .course {
+    width: 14rem !important; }
+
+  .card-top {
+    height: 200px; }
+
+  .course-logo {
+    margin-left: 20px; }
+
+  .course-header-layout {
+    margin: 130px auto; } }
+h1, h2, h3, h4 {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+body {
+  overflow-x: hidden; }
+
+.custom-nav-course2 {
+  width: 100%;
+  height: 70px;
+  padding-top: 20px !important;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05); }
+
+.course-logo2 {
+  width: 124px;
+  height: 31px;
+  margin-left: 90px; }
+
+.header2 {
+  height: 60vh;
+  background-color: #113BEA; }
+
+.course2-header-layout {
+  width: 85%;
+  margin: auto;
+  padding-top: 100px; }
+
+.student-name {
+  padding-left: 15px;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF; }
+
+.header2-title {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF; }
+
+.course-nos1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 15px auto;
+  background-image: url(../Images/10.png);
+  background-position: center;
+  background-size: initial;
+  background-repeat: no-repeat; }
+
+.course-nos2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 15px auto;
+  background-image: url(../Images/08.png);
+  background-position: center;
+  background-size: initial;
+  background-repeat: no-repeat; }
+
+.content-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #F7FBFF; }
+
+.search-box {
+  width: 85%;
+  height: 90px;
+  margin: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: flex; }
+
+.outline-container {
+  width: 70%;
+  height: 90px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px; }
+
+.outline {
+  border: 1px solid #E6EBF1;
+  box-sizing: border-box; }
+
+.outline-text {
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1E2B5E;
+  padding-top: 12px; }
+
+.enroll-card {
+  background: #113BEA;
+  border-radius: 5px 0px 0px 5px  !important; }
+
+.certify-card {
+  border-radius: 0px 5px 5px 0px  !important; }
+
+.enroll-color {
+  color: #ffff !important; }
+
+.about-text {
+  width: 70%;
+  height: 40px;
+  margin-top: 33px;
+  padding-left: 30px; }
+
+.button {
+  width: 30%;
+  margin-top: 25px;
+  padding-left: 120px; }
+
+.about-student {
+  font-family: Gilroy-Bold;
+  font-size: 17px;
+  line-height: 22px;
+  color: #1E2B5E; }
+
+.card-layout {
+  width: 85%;
+  height: auto;
+  margin: auto; }
+
+.card-content {
+  height: 280px;
+  margin-top: 70px;
+  padding: 42px 29px !important;
+  border-radius: 5px;
+  box-shadow: 0px 64px 16px rgba(46, 55, 77, 0.02); }
+
+.top {
+  display: flex; }
+
+.card-title2 {
+  width: 80%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.top-button {
+  width: 20%; }
+
+.card-title-day {
+  width: 74%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.top-button-day {
+  width: 26%; }
+
+.card-title-change {
+  width: 69%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.top-button-change {
+  width: 31%; }
+
+.btn-day1, .btn-day2, .btn-day3 {
+  border-radius: 20px !important;
+  font-family: Gilroy-Bold;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 7px 20px !important; }
+
+.btn-day1 {
+  background-color: #FFE9E2 !important;
+  color: #EE5628 !important; }
+
+.btn-day2 {
+  background-color: #FBF8EB !important;
+  color: #E9C11E !important; }
+
+.btn-day3 {
+  background-color: #F3FFE8 !important;
+  color: #6BB81F !important; }
+
+.about-card2 {
+  width: 75%;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba(30, 43, 94, 0.7);
+  margin-top: 15px; }
+
+.bottom {
+  margin-top: 35px;
+  display: flex; }
+
+.bottom-img {
+  width: 60%; }
+
+.link1 {
+  width: 20%;
+  margin: auto; }
+
+.link2 {
+  width: 20%;
+  margin: auto; }
+
+.btn-more {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px; }
+
+.description-header {
+  height: 90vh;
+  background-color: #FBFBFB; }
+
+.description-position {
+  width: 85% !important;
+  margin: 50px auto; }
+
+.text-media {
+  height: 50px;
+  margin-top: 50px;
+  display: flex; }
+
+.date {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6BB81F; }
+
+.lang-title {
+  width: 80%;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1E2B5E; }
+
+.media {
+  width: 20%;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.profile-picture {
+  margin-top: 10px;
+  margin-bottom: 35px; }
+
+.profile-name {
+  padding-left: 10px !important;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1E2B5E; }
+
+.long-text {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.stars {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.rating-number {
+  padding-right: 20px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.student-number {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E2B5E; }
+
+.Enroll-container {
+  height: 70px;
+  margin-top: 50px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 18px 30px rgba(46, 55, 77, 0.04);
+  border-radius: 5px;
+  display: flex; }
+
+.likes {
+  width: 70%; }
+
+.enroll-text {
+  width: 15%;
+  margin-top: 17px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(30, 43, 94, 0.7); }
+
+.button-box {
+  width: 15%;
+  margin-top: 17px; }
+
+.class-text {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1E2B5E; }
+
+.class-description {
+  background-color: #FBFBFB; }
+
+.description-position2 {
+  width: 85% !important;
+  margin: 40px auto; }
+
+.card-description {
+  width: 70%;
+  margin: 20px auto; }
+
+.circle-text {
+  display: flex; }
+
+.card-descript1 {
+  width: 70%;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 0.55rem;
+  margin-bottom: 30px; }
+
+.card-firsttext {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1E2B5E !important;
+  padding: 30px !important; }
+
+.list-box {
+  margin-left: 35px; }
+
+.li-items {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2B5E;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.circle-nos {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #113BEA;
+  border-radius: 100%;
+  margin-right: 30px;
+  margin-left: 100px; }
+
+.number-img {
+  margin-top: 12px;
+  margin-left: 15px; }
+
+.Registration-section {
+  height: 100vh;
+  background-color: #FFFFFF; }
+
+.reg-content {
+  margin: 150px auto; }
+
+.check {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #6bb81f;
+  margin: auto;
+  text-align: center; }
+
+.icon-solid {
+  max-width: 50px;
+  margin: 6px 15px;
+  font-size: 24px;
+  color: red; }
+
+.reg-text {
+  height: 50px; }
+
+.reg-header {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1E2B5E;
+  text-align: center; }
+
+.reg-button {
+  width: 55%;
+  display: flex;
+  margin: 50px auto; }
+
+.reg1-button, .reg2-button {
+  width: 50%;
+  height: 50px;
+  margin-left: 20px;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 12px; }
+
+.reg1-button {
+  background-color: #113BEA;
+  border-radius: 4px;
+  color: #FFFFFF; }
+
+.reg2-button {
+  background-color: #E5E5E5;
+  border: 1px solid #8E95AE;
+  color: #1E2B5E; }
+
+.Prelaunch-btn {
+  display: flex;
+  padding-left: 5px; }
+
+.prereg-email {
+  width: 65% !important;
+  height: 54px;
+  border: 1px solid #1E2B5E !important;
+  box-sizing: border-box;
+  border-radius: 4px !important;
+  margin: 0px 15px 0px 0px !important;
+  padding: .375rem .75rem; }
+
+.btn-preReg {
+  width: 25% !important;
+  height: 54px;
+  background-color: #113BEA !important;
+  border-radius: 4px !important;
+  vertical-align: initial !important;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF !important; }
+
+@media (max-width: 575.98px) {
+  .Prelaunch-btn {
+    display: block; }
+
+  .prereg-email {
+    width: 100% !important;
+    margin: 20px 0px 20px 0px !important; }
+
+  .btn-preReg {
+    width: 100% !important; } }
+
+/*# sourceMappingURL=css.map */

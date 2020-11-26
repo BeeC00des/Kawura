@@ -1,0 +1,61 @@
+.Registration-section{
+   height: 100vh;
+   background-color:#FFFFFF;
+}
+
+.reg-content{
+   margin: 150px auto;
+}
+
+.check{
+   width:50px;
+   height:50px;
+   border-radius: 50%;
+   background: #6bb81f;
+   margin:30px auto;
+   text-align: center;
+}
+.fa-check-circle:before{  
+   font-size: 20px;
+} 
+.icon-solid{
+   margin-top:15px;
+}
+.reg-text{
+   height:50px;
+}
+.reg-header{
+   font-family: Gilroy-Bold;
+   font-size: 24px;
+   line-height: 32px;
+   color: #1E2B5E;
+   text-align: center;
+}
+
+.reg-button{
+   width:55%;
+   display:flex;
+   margin:50px auto;
+}
+
+.reg1-button,.reg2-button{
+   width:50%;
+   height:50px;
+   margin-left:20px;  
+   font-family: Gilroy-Medium;
+   font-size: 15px;
+   line-height: 22px; 
+   text-align: center;
+   padding-top:12px ;
+}
+
+.reg1-button{
+   background-color: #113BEA;
+   border-radius: 4px; 
+   color: #FFFFFF;    
+}
+.reg2-button{
+   background-color: #E5E5E5;
+   border:1px solid #8E95AE;
+   color: #1E2B5E;
+}

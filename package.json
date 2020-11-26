@@ -1,0 +1,29 @@
+{
+  "name": "kawura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packjs": "browserify index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olawolu/Kawura.git"
+  },
+  "keywords": [
+    "html",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olawolu/Kawura/issues"
+  },
+  "homepage": "https://github.com/olawolu/Kawura#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "browserify": "^16.5.1",
+    "http-server": "^0.12.3"
+  }
+}

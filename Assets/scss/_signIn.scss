@@ -1,0 +1,56 @@
+h1, h2,h3,h4 {
+   padding: 0 !important;
+   margin: 0 !important;  
+}
+.section-sign-in{
+   height:100vh;
+   background-color:#ffffff;
+   overflow-x: hidden;
+}
+.sign-in{
+   padding:100px 100px;
+}
+.signin-logo{
+   width:403px;
+   height:101px;
+   margin-top:220px;
+}
+
+.btn-signin{
+   margin:10px 60px;
+   width:85%;
+   background-color: #113BEA !important;
+   color:#fff !important;
+   font-family: Gilroy-Medium !important;
+   font-size: 15px !important;
+   line-height: 22px !important;
+   padding-top: 14px !important;
+   padding-bottom: 14px !important;
+}
+
+.disable{
+   display:none;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+   .sign-in{
+      padding:20px 30px;
+   }
+   .signin-logo{
+      width:250px;
+      height:70px;
+      margin:30px auto;
+   }
+   .form-head{
+      margin-top: 30px !important;
+   }
+   input[type="email"], 
+   input[type="password"], 
+   select.form-control{
+      margin: 45px 0px 0px 10px !important;
+   }
+   .btn-signin {
+      margin:10px 20px;
+   }
+}

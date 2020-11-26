@@ -1,0 +1,222 @@
+h1, h2,h3,h4 {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+body{
+   overflow-x: hidden;
+}
+.custom-nav-course2{
+   width:100%;
+   height:70px; 
+   padding-top: 20px !important;
+   background-color: #FFFFFF;
+   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+}
+.course-logo2{
+   width: 124px;
+   height: 31px;
+   margin-left: 90px;
+}
+.header2{
+   height:60vh;
+   background-color:#113BEA
+}
+.course2-header-layout{
+   width: 85%;
+   margin:auto;
+   padding-top: 100px;
+}
+.student-name{
+   padding-left:15px;
+   font-family: Gilroy-Bold;
+   font-size: 24px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+.header2-title{
+   font-family: Gilroy-Bold;
+   font-size: 18px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+.course-nos1{
+   width:70px;
+   height:70px;
+   border-radius:5px;
+   background-color:#fff;
+   margin:15px auto;
+   background-image: url(../Images/10.png);
+   background-position: center;
+   background-size: initial;
+   background-repeat: no-repeat;
+}
+.course-nos2{
+   width:70px;
+   height:70px;
+   border-radius:5px;
+   background-color:#fff;
+   margin:15px auto;
+   background-image: url(../Images/08.png);
+   background-position: center;
+   background-size: initial;
+   background-repeat: no-repeat;
+}
+.content-container{
+   padding-top: 30px;
+   padding-bottom: 50px;
+   background-color: #F7FBFF;
+}
+.search-box{
+   width: 85%;
+   height: 90px;
+   margin:auto;
+   background-color: #FFFFFF;
+   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+   border-radius: 4px;
+   display: flex;
+}
+.outline-container{
+   width: 70%;
+   height: 90px;
+   margin:auto;
+   padding-top: 80px;
+   padding-bottom: 50px;
+}
+.outline{
+   border: 1px solid #E6EBF1;
+   box-sizing: border-box;
+}
+.outline-text{
+   font-family: Gilroy-Bold;
+   font-size: 15px;
+   line-height: 22px;
+   color: #1E2B5E;
+   padding-top: 12px;
+}
+.enroll-card{
+   background: #113BEA;
+   border-radius: 5px 0px 0px 5px  !important;
+}
+.certify-card{
+   border-radius: 0px 5px 5px 0px  !important;
+}
+.enroll-color{
+   color:#ffff !important;
+}
+.about-text{
+   width:70%;
+   height:40px;
+   margin-top: 33px;
+   padding-left: 30px;
+}
+.button{
+   width:30%;
+   margin-top: 25px;
+   padding-left:120px;
+}
+.about-student{
+   font-family: Gilroy-Bold;
+   font-size: 17px;
+   line-height: 22px;
+   color: #1E2B5E;
+   
+}
+.card-layout{
+   width: 85%;
+   height: auto;
+   margin:auto;
+}
+.card-content{
+   height: 280px;
+   margin-top: 70px;
+   padding: 42px 29px !important;
+   border-radius: 5px;
+   box-shadow: 0px 64px 16px rgba(46, 55, 77, 0.02);
+}
+.top{
+   display:flex;
+}
+.card-title2{
+   width:80%;
+   font-family: Gilroy-Bold;
+   font-size: 20px;
+   line-height: 24px;
+   color: #1E2B5E;
+}
+.top-button{
+   width:20%;
+}
+.card-title-day{
+   width:74%;
+   font-family: Gilroy-Bold;
+   font-size: 20px;
+   line-height: 24px;
+   color: #1E2B5E;
+}
+.top-button-day{
+   width:26%;
+}
+.card-title-change{
+   width:69%;
+   font-family: Gilroy-Bold;
+   font-size: 20px;
+   line-height: 24px;
+   color: #1E2B5E;
+}
+.top-button-change{
+   width:31%;
+}
+.btn-day1, .btn-day2, .btn-day3{
+   border-radius:20px !important ;
+   font-family: Gilroy-Bold;
+   font-size: 12px;
+   line-height: 17px;
+   padding:7px 20px !important;
+}
+.btn-day1{
+  background-color: #FFE9E2 !important;
+  color: #EE5628 !important;
+}
+.btn-day2{
+   background-color: #FBF8EB !important;
+   color: #E9C11E !important;
+ }
+ .btn-day3{
+   background-color: #F3FFE8 !important;
+   color: #6BB81F !important;
+ }
+.about-card2{
+   width:75%;
+   font-family: Gilroy-Regular;
+   font-size: 15px;
+   line-height: 19px;
+   color: rgba(30, 43, 94, 0.7);
+   margin-top: 15px;
+}
+.bottom{
+   margin-top: 35px;
+   display:flex;
+}
+.bottom-img{
+   width:60%;
+}
+.link1{
+   width:20%;
+   margin: auto;
+}
+.link2{
+   width:20%;
+   margin:auto;
+}
+
+.btn-more{
+   text-decoration: underline;
+   text-underline-position: under;
+   color:#000;
+   font-family: Gilroy-Medium;
+   font-size: 15px;
+   line-height: 22px;
+}
+// .btn-color{
+
+// }

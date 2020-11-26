@@ -1,0 +1,37 @@
+.Prelaunch-btn{
+   display:flex;
+   padding-left: 5px;
+}
+.prereg-email{
+   width: 65% !important;
+   height:54px;
+   border: 1px solid #1E2B5E !important;
+   box-sizing: border-box;
+   border-radius: 4px !important;
+   margin: 0px 15px 0px 0px !important;
+   padding: .375rem .75rem;
+}
+.btn-preReg{
+   width: 25% !important;
+   height:54px;
+   background-color: #113BEA !important;
+   border-radius: 4px !important;
+   vertical-align: initial !important;
+   font-family: Gilroy-Medium;
+   font-size: 15px;
+   line-height: 22px;
+   color: #FFFFFF !important;
+}
+// responsivenes
+@media (max-width: 575.98px) {
+   .Prelaunch-btn{
+      display:block;
+   }
+   .prereg-email{
+      width: 100% !important;
+      margin: 20px 0px 20px 0px !important;
+   }
+   .btn-preReg{
+      width: 100% !important;
+   }
+}
